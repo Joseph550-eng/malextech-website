@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MALEXTECH INNOVATION</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #0a3d62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #1e3799;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background: #38ada9;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #0a3d62;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>MALEXTECH INNOVATION</h1>
+    <p>Supplying quality goods to schools in Zambia</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Request Quote</a>
+</nav>
+
+<div class="container">
+    <h2>Our Services</h2>
+
+    <div class="services">
+        <div class="card">
+            <h3>Stationery</h3>
+            <p>Books, pens, files and all school materials.</p>
+        </div>
+
+        <div class="card">
+            <h3>Office Equipment</h3>
+            <p>Printers, desks, chairs and office supplies.</p>
+        </div>
+
+        <div class="card">
+            <h3>ICT Equipment</h3>
+            <p>Computers, routers, software and accessories.</p>
+        </div>
+    </div>
+
+    <br><br>
+
+    <h2>Request a Quotation</h2>
+
+    <form action="https://formsubmit.co/malextechinnovation@gmail.com" method="POST">
+
+        <input type="text" name="school" placeholder="School Name" required>
+        <input type="text" name="contact" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+        <textarea name="message" placeholder="List items you need..." required></textarea>
+
+        <button type="submit">Submit Request</button>
+
+    </form>
+
+</div>
+
+<footer>
+    <p>© 2026 MALEXTECH INNOVATION</p>
+</footer>
+
+</body>
+</html>
